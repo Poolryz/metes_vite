@@ -1,8 +1,11 @@
 import './LogoComponent.scss'
+import LogoSrc from '/Logo.svg?url'
 
-export default function LogoComponent(){
+export default function LogoComponent() {
 
-    return(
-        <img src="" alt="" />
+    return (
+        <>
+            <img src={LogoSrc} alt="Логотип" className='logo-icon' />
+        </>
     )
 }
