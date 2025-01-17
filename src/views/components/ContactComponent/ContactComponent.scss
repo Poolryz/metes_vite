@@ -1,0 +1,12 @@
+.contact-header {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    gap            : 10px;
+
+    &__link {
+        padding  : 5px;
+        font-size: 1.25rem;
+    }
+}
